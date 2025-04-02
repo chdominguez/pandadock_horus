@@ -1,0 +1,20 @@
+{
+    "id": "pandadock",
+    "name": "PandaDock",
+    "description": "PandaDock is a Python-based molecular docking package designed for bioinformatics and drug design applications.",
+    "author": "PandaDock",
+    "version": "0.0.1",
+    "pluginFile": "plugin.py",
+    "minHorusVersion": "0.5.1",
+    "maxHorusVersion": null,
+    "platforms": [
+        "universal"
+    ],
+    "externalURL": "https://github.com/pritampanda15/PandaDock",
+    "dependencies": [
+        "rdkit",
+        "torch",
+        "openbabel-wheel",
+        "pandadock"
+    ]
+}

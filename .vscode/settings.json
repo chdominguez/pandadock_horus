@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "pandadock/Include",
+        "pandadock/deps/lib/python3.9/site-packages"
+    ]
+}
