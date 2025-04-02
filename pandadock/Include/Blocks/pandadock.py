@@ -184,6 +184,8 @@ def pandadock(block: PluginBlock):
     # Save results
     save_docking_results(optimized_results, "docking_results")
 
+    block.setOutput(docking_results.id, "docking_results")
+
 
 pandadock_block = PluginBlock(
     id="pandadock",
